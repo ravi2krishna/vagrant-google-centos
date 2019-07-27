@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provider :google do |google, override|
     google.google_project_id = "alien-bricolage-212412"
-    google.google_client_email = "devopskishore9@gmail.com"
+    #google.google_client_email = "ravi2krishna@gmail.com"
     google.google_json_key_location = "/Users/ninja/Downloads/gcpkey.json"
     #google.name = "my-test-instance"
     google.name = "my-test-instance"
